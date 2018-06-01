@@ -1,11 +1,81 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,400,900');
 
+.my-body{
+	background-image: url('stripe_background.png');
+}
+.my-container{
+	border: 1px solid #aaa;
+	background-color: white;
+	max-width: 400px;
+	margin: 110px auto 10px auto;
+	padding: 1rem;
+	box-shadow: 5px 5px 5px rgba(231, 226, 226, 0.973);
+	font-family: "Lato";
+}
+.my-container h1{
+	text-align: center;
+}
+.my-text{
+	text-align: center;
+
+}
+
+.my-container ul{
+	max-width: 200px;
+	margin: auto;
+}
+.my-hr{
+	max-width: 300px;
+	border: 10px solid black
+}
+.my-face{
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: auto; 
+	border-radius: 50%;
+	border: 1px solid #aaa;
+	margin-top: -100px;
+}
+
+.my-table{
+	margin: auto;
+	text-align: center;
+
+}
+/*1. bold the text with font weight: 900*/
+/*2. remove the underline decoration*/
+/*3. change the text color to black*/
+.my-link{font-weight: 900;
+	text-decoration: none;
+	color: black;
+	
+
+	
+}
+/*4. invert the color: text is white, background is black*/
+/*5. add a left padding of: 1rem*/
+.my-link:hover, .my-link:active{
+	color: white;
+	background-color: lightcoral;
+	padding-left: 1rem
+	
+	
+
+	
+}
+/*you can optionally style a visited state*/
+.my-link:visited{background-color: yellow;
+	color: blue
+
+}
+
 .my-form{
 	font-family: "Lato";
 	max-width: 400px;
 	padding: 10px;
 	margin: auto;
-	border: 1px solid black;
+	border: 1px solid none;
 }
 
 /*1. add margin spacing for top & bottom: 20px */
@@ -65,7 +135,7 @@ height: 3rem;
 border: none;
 background-color: black;
 color: white;
-border-radius: 50px;
+border-radius: 50vpx;
 
 
 }
@@ -79,4 +149,11 @@ input[type=submit]:hover{
 /*this optional style removes the yellow background of chrome's autofill*/
 input[type]:-webkit-autofill {
     box-shadow: 0 0 0px 1000px white inset;
+}
+
+@media (max-width:768px){
+
+	h1{
+		font-size: 18px;
+	}
 }
