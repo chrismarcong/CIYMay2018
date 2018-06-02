@@ -1,3 +1,16 @@
 .btn {
     font-size: 12px;
 }
+
+.jumbotron{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuTcXYdX4EyoAJ-sqGh50IK-fCWiqTz5q75ltS0d-9nLGMFB2j);
+    background-repeat: none;
+    background-size: cover;
+    background-position: top;    
+    }
+
+    .my-col6{
+        padding: 1rem;
+        font-size: 40px
+        
+    }
