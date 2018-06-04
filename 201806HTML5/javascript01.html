@@ -43,16 +43,20 @@
         function processNumber() {
             var number = document.getElementById("num").value;
             var RHS = 50;
+            var RSS = 100
             // alert(number);
             if ((number > 90) && (number <= 100)) {
                 alert("Distinction!");
 
             }
             else if ((number > 80) && (number < 90)) {
-                alert("A");
+                alert("Achieved!");
             }
 
             // do over 100 here 
+            else if (number > 100) {
+                alert("Are you kindding?!!?");
+            }
 
             else if (number > RHS) {
                 alert("PASSED");
@@ -65,15 +69,15 @@
 
         function processNames() {
             document.writeln("Number of items in Names:" + names.length + linebreak);
-            
+
             var count = 0;
             while (count < names.length) {//start of while loop
 
-            // document.writeln(names[count] + linebreak);
+                // document.writeln(names[count] + linebreak);
 
-            console.log(names[count]);
+                console.log(names[count]);
 
-            count++; // count = count + 1
+                count++; // count = count + 1
             } // end of while loop
 
 

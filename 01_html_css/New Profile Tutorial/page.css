@@ -47,6 +47,11 @@
 	text-align: center;
 
 }
+
+.my-tableheading{
+	text-align: center;
+}
+
 /*1. bold the text with font weight: 900*/
 /*2. remove the underline decoration*/
 /*3. change the text color to black*/
@@ -54,7 +59,6 @@
 	text-decoration: none;
 	color: black;
 	
-
 	
 }
 /*4. invert the color: text is white, background is black*/
@@ -64,8 +68,6 @@
 	background-color: lightcoral;
 	padding-left: 1rem
 	
-	
-
 	
 }
 /*you can optionally style a visited state*/
@@ -160,4 +162,10 @@ input[type]:-webkit-autofill {
 	h1{
 		font-size: 18px;
 	}
+}
+
+.my-col6{
+	padding: 1rem;
+	font-size: 40px;
+	color: black;
 }
