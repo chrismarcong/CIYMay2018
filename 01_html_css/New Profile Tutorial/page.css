@@ -30,7 +30,11 @@
 }
 .my-hr{
 	max-width: 300px;
-	border: 10px solid black
+	border: 10px solid black;
+}
+
+.my-hr:hover {
+	border: 10px solid red;
 }
 .my-face{
 	display: block;
@@ -169,3 +173,4 @@ input[type]:-webkit-autofill {
 	font-size: 40px;
 	color: black;
 }
+/* fix a hover function follow line 150 */
