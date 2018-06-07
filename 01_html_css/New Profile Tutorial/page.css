@@ -34,7 +34,7 @@
 }
 
 .my-hr:hover {
-	border: 10px solid red;
+	border: 10px solid orange;
 }
 .my-face{
 	display: block;
@@ -59,7 +59,7 @@
 /*1. bold the text with font weight: 900*/
 /*2. remove the underline decoration*/
 /*3. change the text color to black*/
-.my-link{font-weight: 900;
+.my-link{font-weight: 700;
 	text-decoration: none;
 	color: black;
 	
@@ -69,13 +69,13 @@
 /*5. add a left padding of: 1rem*/
 .my-link:hover, .my-link:active{
 	color: white;
-	background-color: lightcoral;
+	background-color: orange;
 	padding-left: 1rem
 	
 	
 }
 /*you can optionally style a visited state*/
-.my-link:visited{background-color: yellow;
+.my-link:visited{background-color: orange;
 	color: blue
 
 }
@@ -169,8 +169,9 @@ input[type]:-webkit-autofill {
 }
 
 .my-col6{
-	padding: 1rem;
-	font-size: 40px;
+	padding: 0.1rem;
+	font-size: 35px;
 	color: black;
+	border: none
 }
-/* fix a hover function follow line 150 */
+
